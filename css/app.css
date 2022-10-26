@@ -1,0 +1,59 @@
+#grid
+{
+    width: 684px;
+    height: 576px;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square
+{
+    height: 36px;
+    width: 36px;
+
+}
+.tile-wall
+{
+    background-image: url('../images/Wall.png');
+    background-color: aqua;
+    
+}
+
+.tile-space
+{
+    background-image: url('../images/Floor.png');
+    background-color: black;
+}
+
+.tile-goal
+{
+    background-image: url('../images/Goal.png');
+    background-color: blue;
+}
+
+.entity-player
+{
+    background-color: brown;
+    background-image: url('../images/Player.png');
+}
+
+.entity-block
+{
+    background-image: url('../images/Box.png');
+   background-color: coral;
+}
+
+.entity-block-goal
+{
+    background-image: url('../images/ScoreBox.png');
+    background-color: grey;
+}
+
+.gameover
+{
+    display: block;
+    color: darkred;
+    margin: auto;
+    width: 250px;
+}
